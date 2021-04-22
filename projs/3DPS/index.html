@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Exemplar-Based 3D Portrait Stylization
+	</title>
+	<!-- Fonts and stuff -->
+	<link rel="stylesheet" type="text/css" href="./css/project.css" media="screen">
+	<link rel="stylesheet" type="text/css" media="screen" href="./css/iconize.css">
+</head>
+
+<body>
+	<div id="content">
+		<div id="content-inner">
+
+			<div class="section head">
+
+				<h1>Exemplar-Based 3D Portrait Stylization
+			</h1>
+				<p>
+					Fangzhou Han<sup>1#</sup>, Shuquan Ye<sup>1#</sup>, Mingming He<sup>2</sup>, Menglei Chai<sup>3</sup>, and Jing Liao<sup>1*</sup>
+				</p>
+				<p>
+					<sup>1</sup>City University of Hong Kong &emsp;<sup>2</sup>USC Institute for Creative Technologies &emsp;<sup>3</sup>Creative Vision, Snap Inc.</br>
+					<sup>#</sup>Equal Contribution &emsp;<sup>*</sup> Corresponding Author
+				</p>
+
+
+			</div>
+			<div>
+				<table border="0" align="center">
+	        <tr>
+	            <td align="center">
+					<a class="bar" href="data/Exemplar_Based_3D_Portrait_Stylization_Arxiv_Paper.pdf"><b>Paper</b></a> |&emsp;
+	                <a class="bar" href="data/Exemplar_Based_3D_Portrait_Stylization_Arxiv_Supp.pdf"><b>Supplementary</b></a> |
+					<a class="bar" href="https://github.com/halfjoe/3D-Portrait-Stylization"><b>Code</b></a>
+	            </td>
+	        </tr>
+	    	</table>
+			</div>
+
+			<div class="section abstract">
+			</div>
+
+			<div class="section teaser">
+				<iframe width="640" height="360" src="data/Exemplar_Based_3D_Portrait_Stylization_Video.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+
+			<div class="section abstract">
+				<h2>Abstract</h2> </br>
+				<p>
+					Exemplar-based portrait stylization is widely attractive and highly desired. Despite recent successes, it remains challenging, especially when considering both texture and geometric styles. In this paper, we present the first framework for one-shot 3D portrait style transfer, which can generate 3D face models with both the geometry exaggerated and the texture stylized while preserving the identity from the original content. It requires only one arbitrary style image instead of a large set of training examples for a particular style, provides geometry and texture outputs that are fully parameterized and disentangled, and enables further graphics applications with the 3D representations. The framework consists of two stages. In the first geometric style transfer stage, we use facial landmark translation to capture the coarse geometry style and guide the deformation of the dense 3D face geometry. In the second texture style transfer stage, we focus on performing style transfer on the canonical texture by adopting a differentiable renderer to optimize the texture in a multi-view framework. Experiments show that our method achieves robustly good results on different artistic styles and outperforms existing methods. We also demonstrate the advantages of our method via various 2D and 3D graphics applications.
+				</p>
+			</div>
+
+			<div class="section results">
+				<h2>Results</h2>
+				<center>
+				<ul>
+					<li class="grid">
+						<div class="griditem">
+						    <img src="fig/web_res1.gif">
+						</div>
+					</li>
+					<li class="grid">
+						<div class="griditem">
+							<img src="fig/web_res2.gif">
+						</div>
+					</li>
+					<li class="grid">
+						<div class="griditem">
+							<img src="fig/web_res3.gif">
+						</div>
+					</li>
+					<li class="grid">
+						<div class="griditem">
+							<img src="fig/web_res4.gif">
+						</div>
+					</li>
+				</ul>
+				</center>
+			</div>
+
+			<div class="section apps">
+				<h2>Applications</h2>
+				<center>
+					<ul>
+						<li class="grid">
+							<div class="griditem">
+								<img src="fig/web_app1.gif"></br>
+								Stylized Portrait Reenactment
+							</div>
+						</li>
+						<li class="grid">
+							<div class="griditem">
+								<img src="fig/web_app2.gif"></br>
+								Cartoon 3D Portrait Modeling
+							</div>
+						</li></br></br>
+						<li class="grid">
+							<div class="griditem">
+								<img src="fig/web_app3.gif"></br>
+								Personalized 3D Character Animation
+							</div>
+						</li> &emsp;&emsp;
+						<li class="grid">
+							<div class="griditem">
+								<img src="fig/web_app4.gif"></br>
+								Geometry-Aware Image Style Transfer
+							</div>
+						</li>&emsp;
+					</ul>
+				</center>
+			</div>
+
+			<div class="section list">
+				<h2>Citation</h2>
+				<div class="section bibtex">
+					<pre>@ARTICLE{han2021exemplarbased,
+	author={Han, Fangzhou and Ye, Shuquan and He, Mingming and Chai, Menglei and Liao, Jing},
+	journal={IEEE Transactions on Visualization and Computer Graphics},
+	title={Exemplar-Based 3D Portrait Stylization},
+	year={2021},
+	doi={10.1109/TVCG.2021.3114308}}
+}
+					</pre>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+</body></html>
